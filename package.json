@@ -1,0 +1,32 @@
+{
+  "name": "endb-sqlite",
+  "version": "1.4.0",
+  "description": "SQLite adapter for Endb",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "author": "chroventer (https://github.com/chroventer)",
+  "homepage": "https://endb.js.org",
+  "repository": "chroventer/endb",
+  "bugs": "https://github.com/chroventer/endb/issues",
+  "dependencies": {
+    "endb-sql": "^1.4.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/sqlite3": "^3.1.7",
+    "endb-main": "*"
+  },
+  "keywords": [
+    "endb",
+    "key-value",
+    "cache",
+    "sqlite"
+  ]
+}
